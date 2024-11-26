@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 10;  
+    background-color: #ffffff;
+}
+
+.container {
+    text-align: center;
+}
+
+.wheel {
+    display: flex;
+    overflow: hidden;
+    width: 500px;
+    margin: 20px auto;
+    position: relative;
+    transition: transform 3s ease-out;
+}
+
+.wheel-section {
+    flex: 0 0 auto;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline; 
+    font-size: 1.2em;
+    color: #ffffff;
+    border: 3px solid #000000;
+    margin: 0 5px;
+}
+#ABS0{
+    background-image: url('');
+    background-size: cover;
+}
+#ABS1{
+    background-image: url('รูป/กะเพรา.jpg');
+    background-size: cover;}
+#ABS2{
+    background-image: url('');
+    background-size: cover;}
+ #ABS2{
+   background-image: url('');
+   background-size: cover;}    
+.wheel-section img {
+    width: 200px;  
+    height: 200px;
+    object-fit: cover; 
+    border-radius: 100px; 
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: #ff1a1a;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #a82a2a;
+}
+
+#result {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
